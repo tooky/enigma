@@ -14,7 +14,7 @@ describe 'Acceptance test' do
     end
 
     it 'can decode and reencode the test message' do
-      encoded = "QMJIDO MZWZJFJR"
+      encoded = "QMJIDOMZWZJFJR"
       decoded = operator.code_message(encoded)
 
       operator.reset_machine
