@@ -25,5 +25,10 @@ describe 'Acceptance test' do
 
       operator.code_message(decoded).should == encoded
     end
+
+    it 'decodes a message' do
+      encoded = "QMJIDOMZWZJFJR"
+      operator.code_message(encoded).should == "ENIGMAREVEALED"
+    end
   end
 end
