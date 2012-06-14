@@ -6,6 +6,7 @@ class RotorMechanism
   end
 
   def input(index)
+    rotors.reverse.reduce(index) { |memo, rotor| rotor.input(memo) }
   end
 
   def output(index)
