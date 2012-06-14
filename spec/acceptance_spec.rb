@@ -1,7 +1,11 @@
 require 'spec_helper'
 describe 'Acceptance test' do
   context 'Settings on form' do
-    let(:machine) { Machine.new Rotor::I.at('M'), Rotor::II.at('C'), Rotor::III.at('K') }
+    let(:rotor_mechanism) {
+      RotorMechanism.new Rotor::I.at('M'), Rotor::II.at('C'), Rotor::III.at('K')
+    }
+
+    let(:machine) { Machine.new rotor_mechanism }
 
     let(:operator) { Operator.new(machine) }
 
