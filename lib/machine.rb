@@ -15,9 +15,4 @@ class Machine
 
   def reset
   end
-
-  class Reflector
-    def reflect(index)
-    end
-  end
 end
