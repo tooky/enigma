@@ -15,11 +15,11 @@ describe 'Acceptance test' do
 
     it 'can decode and reencode the test message' do
       encoded = "QMJIDO MZWZJFJR"
-      decoded = operator.code_message(encoded.scan(/./))
+      decoded = operator.code_message(encoded)
 
       operator.reset_machine
 
-      operator.code_message(decoded.scan(/./)).should == encoded
+      operator.code_message(decoded).should == encoded
     end
   end
 end
