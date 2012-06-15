@@ -1,8 +1,11 @@
 # The Butterfly flaps its wings
 ## Is TDD complex or simple?
 
-[Steve Freeman]() and [Jamie Dobson]() ran this excellent session at [SC2012]().
-They are running it again at [SPA2012]().
+[Steve Freeman](https://twitter.com/#!/sf105) and [Jamie
+Dobson](https://twitter.com/#!/financialagile) ran this excellent session at
+[SC2012](http://www.codemanship.co.uk/softwarecraftsmanship/).  They are running
+it again at
+[SPA2012](http://www.spaconference.org/spa2012/sessions/session413.html).
 
 Each pair has to program an Enigma machine. They are given some detail on how it
 works, and are given a paper machine with which they can generate some
@@ -20,7 +23,7 @@ the code that we produced during the session is [here]().
 We started off spending some time figuring out how the machine worked, and tried
 to model that as a sequence diagram.
 
-![Enigma Machine Sequence Diagram](enigma-machine-sequence.png)
+![Enigma Machine Sequence Diagram](https://github.com/tooky/enigma/raw/master/enigma-machine-sequence.png)
 
 We then wrote some high level acceptance tests, based on the information that we
 had been given. We checked encoding a single character, decoding a single
