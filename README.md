@@ -51,9 +51,5 @@ We managed to get to the point that we were able to code and decode single
 characters, we didn't quite get to moving the rotors so we couldn't decode
 a message.
 
-We also suspect we have an off by one error, or we have misunderstood part of
-the specification, as we were expecting to have to do rotate at least one rotor
-just to encode/decode a single character.
-
 Its a great little exercise. If you want to try it your self download the [paper
 enigma machine](http://mckoss.com/Crypto/Paper%20Enigma.pdf).
